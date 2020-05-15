@@ -10,6 +10,7 @@ Then the score will be printed out.
 The score $\in [0, 1]$. `1` represents absolutely positive, and `0` represents absolutely negative. The larger the score, the more positive the sentiment is. 
 
 Example:
+
 Input:
 ```
 python main.py config/config.json -s '这个菜超级好吃！！非常棒！！'
