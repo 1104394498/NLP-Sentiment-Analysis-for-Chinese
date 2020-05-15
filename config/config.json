@@ -1,0 +1,23 @@
+{
+  "embedding_dim": 128,
+  "window_size": 5,
+  "min_count": 5,
+  "device": "cpu",
+
+  "RNN_type": "LSTM",
+  "hidden_size": 64,
+
+  "sentence_datasets": ["comments_dataset/test.txt", "comments_dataset/train.txt", "data/wiki.txt"],
+  "word2vec_file_path": "data/word2vec.model",
+
+  "epoch": 25,
+  "lr": 1e-3,
+  "weight_decay": 1e-4,
+  "num_layers": 1,
+
+  "training_csv_path": "comments_dataset/train.csv",
+  "test_csv_path": "comments_dataset/test.csv",
+
+  "stop_words_path": "comments_dataset/stop_words/all_stop_words.txt",
+  "checkpoint_folder": "checkpoints"
+}
