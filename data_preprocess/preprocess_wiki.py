@@ -5,6 +5,6 @@ from data_preprocess.divide_sentences import divide_sentences
 
 if __name__ == '__main__':
   xml2txt()
-  remove_non_Chinese()
   simplify_Chinese()
   divide_sentences()
+  remove_non_Chinese()
