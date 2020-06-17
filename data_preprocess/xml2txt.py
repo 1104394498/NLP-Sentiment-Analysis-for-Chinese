@@ -3,7 +3,7 @@ from tqdm import tqdm
 import os
 
 
-def xml2txt(file_path: str = os.path.join('..', 'zhwiki-latest-pages-articles.xml.bz2'),
+def xml2txt(file_path: str = os.path.join('download', 'zhwiki-latest-pages-articles.xml.bz2'),
             output_file_name: str = os.path.join('data', 'wiki.cn.txt')):
     print('xml2txt start')
     input_file = WikiCorpus(file_path, lemmatize=False, dictionary={})
